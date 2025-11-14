@@ -1,0 +1,49 @@
+# ========================================
+# Obsidian core files
+# ========================================
+.obsidian/workspace*
+.obsidian/appearance.json
+.obsidian/plugins/obsidian-git/logs/*
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/templater-obsidian/data.json
+.obsidian/plugins/dataview/data.json
+.obsidian/*
+# Plugin caches and temp files
+.obsidian/plugins/*/cache/
+.obsidian/plugins/*/temp/
+.obsidian/plugins/*/node_modules/
+.obsidian/plugins/*/*.log
+
+# Backup & system files
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Exported or generated files
+Exports/
+Exports/*
+Attachments/temp/*
+Assets/temp/*
+*.pdf
+*.zip
+*.tar.gz
+
+# Python / notebook cache (if used)
+__pycache__/
+.ipynb_checkpoints/
+
+# Local preview builds or site exports
+_site/
+build/
+dist/
+
+# Node or plugin dev (if experimenting)
+node_modules/
+package-lock.json
+
+# ========================================
+# End of file
+# ========================================
