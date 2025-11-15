@@ -12,3 +12,12 @@ This vault contains organized technical notes divided into main topics.
 
 Each folder contains topic-specific notes and subfolders.
 This index will be updated as new sections are added.
+
+---
+
+## 🧮 Personal Notes
+
+This vault is a simple collection of notes, saved as they are, without any special structure or ambition.
+More organised and polished material is published on my blog or in GEOframe blog.
+
+---
