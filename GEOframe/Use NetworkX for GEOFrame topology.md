@@ -12,8 +12,11 @@ A basin network can be seen as a graph, specifically as a **directed acyclic tre
 > 
 > 
 > 8 7
+> 
 > 7 4
+> 
 > 6 5
+> 
 > 5 4
 > 4 3
 > 3 2
