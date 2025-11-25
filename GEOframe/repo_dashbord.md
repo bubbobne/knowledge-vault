@@ -9,21 +9,16 @@ This dashboard works with *any GitHub plan*, including free accounts.
 ## 🟦 Status Badges (Organization-wide)
 
 ### 🔧 Pull Requests
-![Open PRs](https://img.shields.io/github/issues-search?query=is%3Apr+is%3Aopen+org%3Ageoframecomponents&label=Open%20PRs&color=blue)
 
 [<img src="https://img.shields.io/github/issues-search?query=is%3Apr+is%3Aopen+org%3Ageoframecomponents&label=Open%20PRs&color=blue" width="180">](https://github.com/pulls?q=is%3Apr+is%3Aopen+org%3Ageoframecomponents)
-
-
-![Draft PRs](https://img.shields.io/github/issues-search?query=is%3Apr+is%3Aopen+draft%3Atrue+org%3Ageoframecomponents&label=Draft%20PRs&color=lightgrey)
 
 
 [<img src="https://img.shields.io/github/issues-search?query=is%3Apr+is%3Aopen+draft%3Atrue+org%3Ageoframecomponents&label=Draft%20PRs&color=lightgrey" width="180">](https://github.com/pulls?q=is%3Apr+is%3Aopen+draft%3Atrue+org%3Ageoframecomponents)
 
 
 ### 🐞 Issues
-![Open Issues](https://img.shields.io/github/issues-search?query=is%3Aissue+is%3Aopen+org%3Ageoframecomponents&label=Open%20Issues&color=orange)
 
-[<img src="https://img.shields.io/github/issues-search?query=is%3Apr+is%3Aopen+draft%3Atrue+org%3Ageoframecomponents&label=Draft%20PRs&color=lightgrey" width="180">](https://github.com/pulls?q=is%3Apr+is%3Aopen+draft%3Atrue+org%3Ageoframecomponents)
+[<img src="https://img.shields.io/github/issues-search?query=is%3Aissue+is%3Aopen+org%3Ageoframecomponents&label=Open%20Issues&color=orange" width="180">](https://github.com/issues?q=is%3Aissue+is%3Aopen+org%3Ageoframecomponents)
 
 
 
