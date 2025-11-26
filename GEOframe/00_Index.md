@@ -1,4 +1,4 @@
-- [Kriging](GEOframe/GEOframe%20kriging.md)
+- [Kriging](GEOframe%20kriging.md)
 - [Pitfalls](GEOframe/GEOFrame%20pitfalls.md)
 - [Network with Python](GEOframe/Use%20networkX%20for%20GEOFrame%20topology.md)
 - [Dashboard repo](GEOframe/repo_dashboard.md)
