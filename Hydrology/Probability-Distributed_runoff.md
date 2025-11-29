@@ -34,13 +34,10 @@ If we sort capacities in ascending order, the threshold capacity - criticxal cap
 
 The distribution of capacities is described by:
 
-$$
-F\!\left(C^{*}(t)\right)
-=
-P\!\left(c \le C^{*}(t)\right)
-=
-\int_{0}^{C^{*}(t)} f(c)\, dc
-$$
+```math
+F(C^{*}(t)) = P(c \le C^{*}(t)) = \int_{0}^{C^{*}(t)} f(c)\, dc
+```
+
 where:
 
 - $f(c)$ is the probability density of capacities  
@@ -61,20 +58,23 @@ $$
 
 Under constant rainfall intensity:
 
-$$
+```math
 C^*(\tau) = C^*(t) + \pi(\tau - t)
-$$
+```
+
 
 This expresses how the saturation threshold rises in time during rainfall. Then the runoff volume generated in the interval $[t, t+\Delta t]$ is:
 
-$$
+
+
+```math
 V(t+\Delta t)
 =
 \int_t^{t+\Delta t} q(\tau)\,d\tau
 =
 \int_t^{t+\Delta t} \pi\,F(C^*(\tau))\,d\tau.
-$$
 
+```
 ### **Change of variable**
 
 Let:
@@ -93,27 +93,27 @@ $$
 
 Limits change from:
 
-$$
+```math
 \tau \in [t, t+\Delta t]
 \quad\Longrightarrow\quad
 c \in [C^*(t),\, C^*(t+\Delta t)].
-$$
+```
 
 Thus:
 
-$$
+```math
 V(t+\Delta t)
 = 
 \pi \int_{C^*(t)}^{C^*(t+\Delta t)} F(c)\,\frac{1}{\pi}\,dc
-$$
+```
 
-$$
+```math
 \boxed{
 V(t+\Delta t)
 =
 \int_{C^*(t)}^{C^*(t+\Delta t)} F(c)\,dc
 }
-$$
+```
 
 When working with discrete timesteps, the rainfall input cannot simply be applied as a single lumped value.  
 If the entire rainfall amount for the timestep is added at once, it may immediately drive the catchment to full saturation, which is inconsistent with the continuous formulation of the model.  
@@ -141,11 +141,12 @@ $$
 
 By integration by parts:
 
-$$
+```math
 \int_0^\infty c\,f(c)\,dc
 =
 \int_0^\infty (1 - F(c))\,dc.
-$$
+```
+
 Because the local capacity ccc cannot exceed the upper limit $C_{\max}$​, the average storage of the basin must always be **strictly smaller** than ⁡$C_{\max}$.  
 This follows directly from the fact that a mean value cannot exceed the maximum value of the support of its distribution
 
@@ -156,11 +157,11 @@ Using:
 - $u = c$,  
 - $dv = f(c)\,dc$ so $v = F(c)$:
 
-$$
+```math
 \int_0^\infty c f(c)\,dc
 =
 [cF(c)]_0^\infty - \int_0^\infty F(c)\,dc.
-$$
+```
 
 Since $F(\infty)=1$, the boundary term gives $C_{\max}$, and both expressions are identical.
 
@@ -200,13 +201,13 @@ This assumption preserves the analytic form of the equations and leads to the co
 
 ## **Storage at time t**
 
-$$
+```math
 S(t)
 =
 \int_0^{C^*(t)} c f(c)\,dc
 +
 C^*(t)\int_{C^*(t)}^\infty f(c)\,dc.
-$$
+```
 
 Interpretation:
 
@@ -216,11 +217,11 @@ Interpretation:
 
 ### **Integration-by-parts identity**
 
-$$
+```math
 \int_0^x c f(c)\,dc
 =
 xF(x)-\int_0^x F(c)\,dc.
-$$
+```
 
 This is explicitly derived by integration by parts.
 
