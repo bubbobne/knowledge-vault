@@ -70,7 +70,16 @@ Thus the implementation follows Moore exactly.
 ## 3. Recovering the Current Threshold Capacity $c_t$
 
 For a known mean storage $S_n$, Moore links $S_n$ to the capacity threshold $c_t$ via:
-\( S_n = \frac{C_{\max}}{b+1}\left[1 - \left(1 - \frac{c_t}{C_{\max}}\right)^{b+1}\right] \)
+$$
+S_n =
+\frac{C_{\max}}{b+1}
+\left[
+1 -
+\left(
+1 - \frac{c_t}{C_{\max}}
+\right)^{b+1}
+\right]
+$$
 
 Solving for $c_t$ yields:
 
@@ -88,7 +97,9 @@ This computes the capacity threshold corresponding to the current storage.
 
 The first part of the runoff occurs when rainfall exceeds the remaining catchment capacity:
 
-UT1=maxbig(P−(Cmax−ct),0big)UT1 = \\max\\big(P - (C_{\\max} - c_t), 0\\big)UT1=maxbig(P−(Cmax​−ct​),0big)
+$$
+UT1 = \max\big(P - (C_{\max} - c_t),\, 0\big)
+$$
 
 In code:
 
