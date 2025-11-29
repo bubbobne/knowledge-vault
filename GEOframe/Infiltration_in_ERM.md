@@ -6,6 +6,7 @@ tags:
   - runoff
   - moore1985
   - alpha-function
+related: [Hydrology/Probability-Distribuited_runoff.md]
 ---
 
 # 🌧️ The **alpha** Function and Its Link to Moore (1985)
@@ -24,7 +25,7 @@ In simple terms:
 *The Probability-Distributed Principle and Runoff Production at Point and Basin Scales.*  
 **Hydrological Sciences Journal**, 30(2), 273–297.  
 <https://doi.org/10.1080/02626668509490989>
-
+[also in yhis vault](Hydrology/Probability-Distribuited_runoff.md)
 ---
 
 ## 1. Background: Moore’s Probability-Distributed Principle
