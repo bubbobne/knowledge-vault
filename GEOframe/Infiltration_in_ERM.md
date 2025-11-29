@@ -70,9 +70,8 @@ Thus the implementation follows Moore exactly.
 ## 3. Recovering the Current Threshold Capacity $c_t$
 
 For a known mean storage $S_n$, Moore links $S_n$ to the capacity threshold $c_t$ via:
-$$
-Sn=fracCmaxb+1left[1−left(1−fracctCmaxright)b+1right].S_n = \\frac{C_{\\max}}{b+1} \\left[1 - \\left(1 - \\frac{c_t}{C_{\\max}}\\right)^{b+1}\\right].Sn​=fracCmax​b+1left[1−left(1−fracct​Cmax​right)b+1right].
-$$
+\( S_n = \frac{C_{\max}}{b+1}\left[1 - \left(1 - \frac{c_t}{C_{\max}}\right)^{b+1}\right] \)
+
 Solving for $c_t$ yields:
 
 Always show details
@@ -116,7 +115,7 @@ dummy = (ct_prev + P - UT1)/Cmax;
 This is inserted into Moore’s storage-capacity relationship to compute:
 
 $$
-Sn+1=fracCmaxb+1left[1−left(1−fracc′Cmaxright)b+1right],S_{n+1} = \\frac{C_{\\max}}{b+1} \\left[1 - \\left(1 - \\frac{c'}{C_{\\max}}\\right)^{b+1}\\right],Sn+1​=fracCmax​b+1left[1−left(1−fracc′Cmax​right)b+1right],
+Sn+1=fracCmaxb+1 left[1−left(1−fracc′C_max right)b+1right],S_{n+1} = \\frac{C_{\\max}}{b+1} \\left[1 - \\left(1 - \\frac{c'}{C_{\\max}}\\right)^{b+1}\\right],Sn+1​=fracCmax​b+1left[1−left(1−fracc′Cmax​right)b+1right],
 $$
 
 implemented as:
