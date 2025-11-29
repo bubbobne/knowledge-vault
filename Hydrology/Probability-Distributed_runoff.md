@@ -35,9 +35,12 @@ If we sort capacities in ascending order, the threshold capacity - criticxal cap
 The distribution of capacities is described by:
 
 $$
-F(C^*(t)) = P(c \le C^*(t)) = \int_0^{C^*(t)} f(c)\,dc
+F\!\left(C^{*}(t)\right)
+=
+P\!\left(c \le C^{*}(t)\right)
+=
+\int_{0}^{C^{*}(t)} f(c)\, dc
 $$
-
 where:
 
 - $f(c)$ is the probability density of capacities  
