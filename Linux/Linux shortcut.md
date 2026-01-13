@@ -20,7 +20,7 @@ Most of these shortcuts work in any terminal.
 | Move one word left | `Alt + B` | Move to beginning of previous word |
 | Move one word right | `Alt + F` | Move to end of next word |
 | Swap two characters | `Ctrl + T` | Switch the two characters around cursor |
-| Swap two words | `Esc + T` | Swap the order of last two words |
+| Swap two words | `Esc + T` or  `Alt + T` | Swap the order of last two words |
 
 ---
 
