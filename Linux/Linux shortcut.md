@@ -8,7 +8,7 @@ tags: [linux, terminal, shortcuts, bash, commands]
 # 🧠 Linux Keyboard Shortcuts  
 Quick reference for Bash and Zsh command line editing.  
 Most of these shortcuts work in any terminal.
-
+bidkey => to see all shortcut
 ---
 
 ## 🏃 Movement
@@ -28,6 +28,7 @@ Most of these shortcuts work in any terminal.
 
 | Action | Shortcut | Description |
 |--------|-----------|--------------|
+| Delete whole line | `Ctrl + U` | Cut whole line|
 | Delete to start of line | `Ctrl + U` | Cut from cursor to beginning |
 | Delete to end of line | `Ctrl + K` | Cut from cursor to end |
 | Delete previous word | `Ctrl + W` | Cut the word before the cursor |
