@@ -1,4 +1,4 @@
-#Github workflow proposal
+# Github workflow proposal
 
 ##  General Principles
 
