@@ -1,3 +1,5 @@
+#Github workflow proposal
+
 ##  General Principles
 
 The source code of our components must remain centralized, accessible, and recoverable over time. We need a workflow that:
