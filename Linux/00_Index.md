@@ -1,7 +1,23 @@
-# 🐧 Linux — Indice
+# Linux
 
+Linux commands, shortcuts, and configuration notes.
 
-- [EndeavourOS](EndeavourOS)
-- [Shortcut](Linux%20shortcut.md)
-- [Count files](Linux%20count%20file.md)
-- [1 command per day](Linux%201%20command%20x%20day.md)
+---
+
+## Notes
+
+- [Linux shortcuts](Linux shortcut.md)
+- [Linux count file](Linux count file.md)
+- [Linux 1 command a day](Linux 1 command x day.md)
+
+---
+
+## Distributions
+
+- [EndeavourOS](EndeavourOS/)
+
+---
+
+## Related sections
+
+- [Programming](../Programming/)

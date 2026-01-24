@@ -1,12 +1,16 @@
+# EndeavourOS
 
+Notes related to the setup and configuration of EndeavourOS.
 
+---
 
+## Notes
 
-# 🧩 EndeavourOS — Indice
+- [System setup](Setup.md)
 
-- [[Setup]]
-- [[Pacman_Yay]]
-- [[Zsh_Config]]
-- [[Maintenance]]
-- [[Backup_Git]]
-- [[Troubleshooting]]
+---
+
+## Back
+
+- [Linux](../)
+
