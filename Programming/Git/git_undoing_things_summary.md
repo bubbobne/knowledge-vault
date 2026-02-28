@@ -84,3 +84,11 @@ git revert <commit>
 
 Crea un nuovo commit che annulla le modifiche del commit indicato.  
 Non riscrive la storia ed è sicuro per branch condivisi.
+
+
+---
+
+## Navigazione
+
+- [Indice Git](00_Index.md)
+- [Indice Programming](../00_Index.md)

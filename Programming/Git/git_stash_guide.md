@@ -124,3 +124,11 @@ git stash pop
 
 Questo permette di sospendere temporaneamente il lavoro senza creare
 commit non necessari.
+
+
+---
+
+## Navigazione
+
+- [Indice Git](00_Index.md)
+- [Indice Programming](../00_Index.md)
