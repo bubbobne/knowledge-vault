@@ -46,7 +46,7 @@ Se la storia è così:
 C1 --- C2\
 C5 --- C6 (main)
 
-Qui i branch hanno divergiuto dopo C2.
+Qui i branch hanno diverguto dopo C2.
 
 Git esegue un **three-way merge** usando:
 
@@ -180,7 +180,10 @@ git pull origin main
 
 Pull equivale a:
 
-git fetch origin git merge origin/main
+```bash
+git fetch origin
+git merge origin/main
+```
 
 ------------------------------------------------------------------------
 
@@ -192,3 +195,11 @@ git fetch origin git merge origin/main
 -   Fetch → aggiorna informazioni dal remoto\
 -   Push → invia commit al server\
 -   Remote-tracking branch → fotografia dello stato remoto
+
+
+---
+
+## Navigazione
+
+- [Indice Git](00_Index.md)
+- [Indice Programming](../00_Index.md)

@@ -6,14 +6,15 @@ Programming notes and practical examples.
 
 ## Languages and tools
 
-- [Python](python/)
-- [Julia](Julia/)
-- [Git](Git/)
+- [Python](python/00_Index.md)
+- [Julia](Julia/00_Index.md)
+- [Git](Git/00_Index.md)
 - Java (empty)
 
 ---
 
-## Related sections
+## Sezioni correlate
 
-- [Linux](../Linux/)
-- [GEOframe](../GEOframe/)
+- [Linux](../Linux/00_Index.md)
+- [GEOframe](../GEOframe/00_Index.md)
+- [Home Knowledge Vault](../Readme.md)
