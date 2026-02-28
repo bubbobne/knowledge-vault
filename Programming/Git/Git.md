@@ -16,6 +16,20 @@ E' un sistema di versionamento **distribuito**. Perchè usarlo:
 
 Rispetto ad altri (CVS, subversion...) non lavora per "differenze" ma fà degli snapshot della situazione.
 
+Git è un **database di oggetti indirizzati per hash**.
+
+Ci sono 4 tipi principali di oggetti:
+
+- **blob** → contenuto di un file
+    
+- **tree** → struttura delle cartelle
+    
+- **commit** → snapshot + metadata
+    
+- **tag** → etichette annotate
+
+
+
 # Basi
 
 I file possono essere in uno dei seguenti stati:
@@ -152,3 +166,4 @@ git remote rename nuovo_repo origin
 
 - [[https://gist.github.com/bubbobne/47017106854a862dec23d4c36dc3ae5c]]
 - [[https://git-scm.com/book/en/v2]]
+- [[https://martinfowler.com/articles/branching-patterns.html]]
