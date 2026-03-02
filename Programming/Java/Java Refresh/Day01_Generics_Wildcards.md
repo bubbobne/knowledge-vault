@@ -100,7 +100,7 @@ src → method → dest\
 
 Wildcard (`?`) = unknown and NOT nameable.
 
-Type parameter (`<T>`) = unknown BUT consistent and nameable. (aka raw type)
+Type parameter (`<T>`) = unknown BUT consistent and nameable. (aka raw type => List; List<E extends Number> bounded se ? => eildcard bounded)
 
 Example that works:
 
