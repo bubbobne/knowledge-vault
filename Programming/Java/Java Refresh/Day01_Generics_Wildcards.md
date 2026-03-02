@@ -100,7 +100,7 @@ src → method → dest\
 
 Wildcard (`?`) = unknown and NOT nameable.
 
-Type parameter (`<T>`) = unknown BUT consistent and nameable.
+Type parameter (`<T>`) = unknown BUT consistent and nameable. (aka raw type)
 
 Example that works:
 
