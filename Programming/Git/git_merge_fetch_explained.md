@@ -40,13 +40,13 @@ Nessun merge commit viene creato.
 
 Se la storia è così:
 
-        C3 — C4 (feature)
-       /
+          C3 — C4 (feature)
+        /
+C1 --- C2
+        \
+         C5 --- C6 (main)
 
-C1 --- C2\
-C5 --- C6 (main)
-
-Qui i branch hanno diverguto dopo C2.
+Qui i branch sono divergenti dopo C2.
 
 Git esegue un **three-way merge** usando:
 
