@@ -75,11 +75,11 @@ Esempio:
 
 Situazione iniziale:
 
-        C3 — C4 (feature)
-       /
-
-C1 --- C2\
-C5 --- C6 (main)
+          C3 — C4 (feature)
+        /
+C1 --- C2
+        \
+         C5 --- C6 (main)
 
 Con:
 
