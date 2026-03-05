@@ -16,7 +16,7 @@ tags: [git]
 
 Rispetto ad altri (CVS, subversion...) non lavora per "differenze" ma fa degli snapshot della situazione.
 
-Git è un **database di oggetti indirizzati per hash**.
+Git è un **database di oggetti indirizzati per hash**. Ogni oggetto ha un hash Sha1.
 
 Ci sono 4 tipi principali di oggetti:
 
