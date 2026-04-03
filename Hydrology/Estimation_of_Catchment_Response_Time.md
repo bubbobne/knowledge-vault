@@ -90,6 +90,9 @@ Interpretation:
     
 - positive → after the main contribution
     
+In the DMCA approach, the minimum of the correlation function does not indicate a weaker relationship between precipitation and discharge, but rather identifies the temporal scale at which their common dynamics is best captured, after removing the dominant trend, and the residual fluctuations are least correlated.
+
+
 
 ---
 
