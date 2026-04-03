@@ -69,6 +69,9 @@ These fluctuations:
 
 The correlation between rainfall and streamflow fluctuations is computed for different values of L.
 
+
+
+[github code](https://github.com/giuliagiani/Tr_DMCA)
 ---
 
 ## What “fluctuations” really represent
