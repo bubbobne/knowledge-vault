@@ -25,11 +25,11 @@ Un *fast-forward* avviene quando il branch che stai unendo è
 semplicemente più avanti rispetto al commit corrente.
 
 Esempio:
-
+```
 C1 --- C2 (main)
         \
          C3 --- C4 (hotfix)
-
+```
 Se sei su C2 e fai merge di hotfix, Git non crea un nuovo commit. Sposta
 semplicemente il puntatore di main a C4.
 
@@ -40,13 +40,13 @@ Nessun merge commit viene creato.
 ## Merge con divergenza (Three-Way Merge)
 
 Se la storia è così:
-
+```
           C3 — C4 (feature)
         /
 C1 --- C2
         \
          C5 --- C6 (main)
-
+```
 Qui i branch sono divergenti dopo C2.
 
 Git esegue un **three-way merge** usando:
