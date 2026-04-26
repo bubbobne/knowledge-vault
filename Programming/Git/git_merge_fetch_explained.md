@@ -75,13 +75,13 @@ Invece di creare un merge commit, rebase:
 Esempio:
 
 Situazione iniziale:
-
+```
           C3 — C4 (feature)
         /
 C1 --- C2
         \
          C5 --- C6 (main)
-
+```
 Con:
 
 git rebase main
@@ -93,9 +93,9 @@ Git fa:
 3.  Li riapplica sopra C6
 
 Risultato:
-
+```
 C1 --- C2 --- C5 --- C6 --- C3' --- C4'
-
+```
 La storia diventa lineare.
 
 ------------------------------------------------------------------------
