@@ -26,8 +26,9 @@ semplicemente più avanti rispetto al commit corrente.
 
 Esempio:
 
-C1 --- C2 (main)\
-C3 --- C4 (hotfix)
+C1 --- C2 (main)
+        \
+         C3 --- C4 (hotfix)
 
 Se sei su C2 e fai merge di hotfix, Git non crea un nuovo commit. Sposta
 semplicemente il puntatore di main a C4.
