@@ -28,5 +28,6 @@ Notes and workflows related to the GEOframe hydrological modeling framework.
 
 ## Related sections
 
-- [Hydrology](../Hydrology/)
-- [Programming](../Programming/)
+- [Hydrology](../Hydrology/00_Index.md)
+- [Programming](../Programming/00_Index.md)
+- [Knowledge Vault map](../00_Index.md)

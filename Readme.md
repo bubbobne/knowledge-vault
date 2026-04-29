@@ -13,36 +13,28 @@ Use this page as the main entry point.
 ### 🌊 Hydrology
 Concepts, processes, and modeling approaches in hydrology.
 
-→ **Explore:**  
-- [Hydrology](Hydrology/)
-- Key topics: rainfall–runoff modeling, snow processes, water balance
+→ **Explore:** [Hydrology](Hydrology/00_Index.md)
 
 ---
 
 ### 🧩 GEOframe
 Notes and workflows related to the GEOframe hydrological modeling framework.
 
-→ **Explore:**  
-- [GEOframe](GEOframe/)
-- Topics: HRU definition, interpolation, calibration, components
+→ **Explore:** [GEOframe](GEOframe/00_Index.md)
 
 ---
 
 ### 💻 Programming
 Programming notes, scripts, and practical examples.
 
-→ **Explore:**  
-- [Programming](Programming/)
-- Languages: Python, Java, Bash, Julia
+→ **Explore:** [Programming](Programming/00_Index.md)
 
 ---
 
 ### 🐧 Linux
 Useful Linux commands, configuration notes, and productivity tips.
 
-→ **Explore:**  
-- [Linux](Linux/)
-- Topics: shell usage, filesystem, automation
+→ **Explore:** [Linux](Linux/00_Index.md)
 
 ---
 
@@ -64,22 +56,6 @@ These topics span multiple areas of the vault:
 - Start from a **core area** above  
 - Follow links inside notes to explore related concepts  
 - Use Obsidian search or graph view for transversal navigation  
+- Use [00_Index](00_Index.md) when you want a compact map of hubs and cross-domain entry points
 
 This vault is meant to be explored through **connections**, not through a rigid menu.
-
----
-
-## 🧮 Personal Notes
-
-This vault is a simple collection of notes, saved as they are, without any special structure or ambition.
-More organised and polished material is published on my blog or in GEOframe blog.
-
----
-
-
-## License
-
-This knowledge vault is licensed under  
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**.
-
-© Daniele Andreis

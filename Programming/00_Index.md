@@ -9,12 +9,13 @@ Programming notes and practical examples.
 - [Python](python/00_Index.md)
 - [Julia](Julia/00_Index.md)
 - [Git](Git/00_Index.md)
-- Java (empty)
+- [Java Refresh](Java/Java Refresh/Java Refresh.md)
 
 ---
 
-## Sezioni correlate
+## Related sections
 
 - [Linux](../Linux/00_Index.md)
 - [GEOframe](../GEOframe/00_Index.md)
-- [Home Knowledge Vault](../Readme.md)
+- [Hydrology](../Hydrology/00_Index.md)
+- [Knowledge Vault map](../00_Index.md)
