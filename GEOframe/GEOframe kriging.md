@@ -8,7 +8,7 @@ tags: [hydrology, geoframe, kriging]
 ---
 
 
-# GlobalParameterEvaluator
+# TimeSeriesVariogramParameterEstimator
 
 ## Overview
 
