@@ -1,16 +1,18 @@
 # EndeavourOS
 
-Notes related to the setup and configuration of EndeavourOS.
+Notes related to setup and configuration of EndeavourOS.
 
 ---
 
 ## Notes
 
 - [System setup](Setup.md)
+- [Java on EndeavourOS](Java.md)
+- [NordVPN guide](NordVPN_EndeavourOS_Guida.md)
 
 ---
 
-## Back
+## Related sections
 
-- [Linux](../)
-
+- [Linux](../00_Index.md)
+- [Legacy EndeavourOS note](../../EndeavourOS.md)

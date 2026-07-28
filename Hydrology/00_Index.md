@@ -13,5 +13,6 @@ Notes related to hydrological theory and modeling concepts.
 
 ## Related sections
 
-- [GEOframe](../GEOframe/)
-- [Programming](../Programming/)
+- [GEOframe](../GEOframe/00_Index.md)
+- [Programming](../Programming/00_Index.md)
+- [Knowledge Vault map](../00_Index.md)
